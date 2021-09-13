@@ -2,7 +2,9 @@
 #define Code ios_base::sync_with_stdio(false);
 #define by cin.tie(NULL);
 #define black_heretic cout.tie(NULL);
- 
+#define for(n) for (int i = 0; i < n; i++)
+#define rl(m, n) for (int i = n; i >= m; i--)
+#define read(x) int x; cin >> x
 using namespace std;
 
 void online_judge(){
@@ -12,18 +14,17 @@ void online_judge(){
     #endif
 }
 
-//Code by Subhodeep Dey. © 2021.
+//Code begins here. Remark: NIL.
  
 void solve() {
- //Code here
+    //Write code here. 
 return;
 }
  
 signed main(){
     Code by black_heretic
     online_judge();
-    int t;  
-    cin >> t;
+    read(t);
     while(t--) solve();
     return 0;
 }
