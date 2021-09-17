@@ -1,8 +1,11 @@
+#pragma GCC optimize("Ofast")
+#pragma GCC target("avx,avx2,fma")
+#pragma GCC optimization("unroll-loops")
 #include <bits/stdc++.h>
 #define Code ios_base::sync_with_stdio(false);
 #define by cin.tie(NULL);
 #define black_heretic cout.tie(NULL);
-#define for(n) for (int i = 0; i < n; i++)
+#define fl(n) for (int i = 0; i < n; i++)
 #define rl(m, n) for (int i = n; i >= m; i--)
 #define read(x) int x; cin >> x
 using namespace std;
