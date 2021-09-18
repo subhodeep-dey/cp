@@ -17,10 +17,10 @@ void online_judge(){
     #endif
 }
 
-//Code begins here. Remark: NIL.
+// Remark: NIL.
  
 void solve() {
-    //Write code here. 
+    // Write code here. 
 return;
 }
  
