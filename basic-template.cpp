@@ -7,15 +7,16 @@
 #define black_heretic cout.tie(NULL);
 #define fl(n) for (int i = 0; i < n; i++)
 #define rl(m, n) for (int i = n; i >= m; i--)
-#define read(x) int x; cin >> x
+typedef long long ll;
+#define read(x) ll x; cin >> x
 using namespace std;
 
-void online_judge(){
-    #ifndef ONLINE_JUDGE
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
-    #endif
-}
+// void online_judge(){
+//     #ifndef ONLINE_JUDGE
+//     freopen("input.txt", "r", stdin);
+//     freopen("output.txt", "w", stdout);
+//     #endif
+// }
 
 // Remark: NIL.
  
@@ -27,7 +28,7 @@ return;
 signed main(){
     Code by black_heretic
     online_judge();
-    read(t);
-    while(t--) solve();
+    read(t); while(t--)
+        solve();
     return 0;
 }
