@@ -27,7 +27,7 @@ return;
  
 signed main(){
     Code by black_heretic
-    online_judge();
+    // online_judge();
     read(t); while(t--)
         solve();
     return 0;
