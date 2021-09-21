@@ -18,10 +18,16 @@ using namespace std;
 //     #endif
 // }
 
+// Useful copy paste.
+// for(i = 3; i <= m; i = i+2)
+//ll i, n;
+//cin >> n;
+
 // Remark: NIL.
- 
+
 void solve() {
-    // Write code here. 
+ //ll i, n;
+ //cin >> n;
 return;
 }
  
