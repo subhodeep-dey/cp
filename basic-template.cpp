@@ -11,30 +11,20 @@ typedef long long ll;
 #define read(x) ll x; cin >> x
 using namespace std;
 
-// void online_judge(){
-//     #ifndef ONLINE_JUDGE
-//     freopen("input.txt", "r", stdin);
-//     freopen("output.txt", "w", stdout);
-//     #endif
-// }
-
-// Useful copy paste.
-// for(i = 3; i <= m; i = i+2)
-//ll i, n;
-//cin >> n;
-
 // Remark: NIL.
 
 void solve() {
- //ll i, n;
- //cin >> n;
+  ll i, n;
+  cin >> n;
+  ll arr[n];
+  for(i = 0; i < n; i++) cin >> arr[i];
+  
 return;
 }
  
 signed main(){
     Code by black_heretic
-    // online_judge();
-    read(t); while(t--)
+    // read(t); while(t--)
         solve();
     return 0;
 }
